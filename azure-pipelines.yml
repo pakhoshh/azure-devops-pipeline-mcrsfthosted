@@ -7,8 +7,8 @@ trigger:
 - main
 
 pool:
-  name: 'Hosted Agent'
-  vmImage: 'windows-latest'
+  name: 'Azure Pipelines'
+  vmImage: 'Hosted Agent'
 
 steps:
 - script: echo Hello, world!
